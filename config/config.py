@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from dotenv import liad_dotenv
+from dotenv import load_dotenv
 
 #Configuración para carga de variables de entorno
 load_dotenv()

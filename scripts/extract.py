@@ -59,7 +59,7 @@ def extract_all_cities(cities:List[str], api_key:str) -> Disct[str, Dict]:
     failed = 0
 
     for city in cities:
-        data = extract_weather_Data(city, api_key)
+        data = extract_weather_data(city, api_key)
 
         if data:
             results[city] = data
